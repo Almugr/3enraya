@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3 EN RAYA</title>
+  <link rel="stylesheet" href="juego.css">
+  <script src="juego.js" defer></script>
+</head>
+<body>
+<h1>3 EN RAYA</h1>
+<form action="juego.html" method="post">
+  <fieldset>
+    <legend>Datos</legend>
+  <label for="jugador1">Jugador 1:</label>
+  <input type="text" name="jugador1" id="jugador1"><br><br>
+  <label for="ficha">Ficha:</label>
+  <select name="ficha" id="ficha">
+    <option value="Gryffindor">Gryffindor</option>
+    <option value="Slytherin">Slytherin</option>
+    <option value="Hufflepuff">Hufflepuff</option>
+    <option value="Ravenclaw">Ravenclaw</option>
+    <option value="Piratas">Piratas del Caribe</option>
+    <option value="Bart">Bart Simpson</option>
+    <option value="Lisa">Lisa Simpson</option>
+    <option value="Homer">Homer Simpson</option>
+    <option value="Marge">Marge Simpson</option>
+    <option value="Maggie">Maggie Simpson</option>
+  </select><br><br>
+  <label for="jugador2">Jugador 2:</label>
+  <input type="text" name="jugador2" id="jugador2"><br><br>
+  <label for="ficha2">Ficha:</label>
+  <select name="ficha2" id="ficha2">
+    <option value="Gryffindor">Gryffindor</option>
+    <option value="Slytherin">Slytherin</option>
+    <option value="Hufflepuff">Hufflepuff</option>
+    <option value="Ravenclaw">Ravenclaw</option>
+    <option value="Piratas">Piratas del Caribe</option>
+    <option value="Bart">Bart Simpson</option>
+    <option value="Lisa">Lisa Simpson</option>
+    <option value="Homer">Homer Simpson</option>
+    <option value="Marge">Marge Simpson</option>
+    <option value="Maggie">Maggie Simpson</option>
+  </select>
+    </fieldset><br><br>
+  <button type="submit">Empezar</button>
+</form>
+<p id="turno"></p>
+<table>
+  <tr>
+    <td id="0"></td>
+    <td id="1"></td>
+    <td id="2"></td>
+  </tr>
+  <tr>
+    <td id="3"></td>
+    <td id="4"></td>
+    <td id="5"></td>
+  </tr>
+  <tr>
+    <td id="6"></td>
+    <td id="7"></td>
+    <td id="8"></td>
+  </tr>
+</table>
+<div id="botones">
+  <button id="nuevaPartida">Nuevo</button>
+  <button id="revancha">Revancha</button>
+</div>
+</body>
+</html>
